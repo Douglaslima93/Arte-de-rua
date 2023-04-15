@@ -3,8 +3,9 @@
 }
 
 body {
-    background-color: gray;
+    background-image: url('./img/pexels-sasha-martynov-1260727.jpg');
     width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -14,7 +15,7 @@ header {
 
 .historia h2{
     text-align: center;
-    margin-top: 120px;
+    margin-top: 200px;
 }
 
 .historia p{
@@ -46,4 +47,13 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.project-img img {
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+
+img :hover {
+    
 }
